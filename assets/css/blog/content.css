@@ -1,0 +1,17 @@
+.gh-content pre {
+	scrollbar-width: thin;
+	scrollbar-color: white transparent;
+	overflow-x: scroll;
+	background-color: var(--white-color);
+	border-color: var(--primary-text-color);
+	border-style: solid;
+	border-radius: 6px;
+	border-width: 2px;
+	scrollbar-gutter: stable;
+}
+
+.gh-content :not(pre) > code {
+	color: var(--primary-text-color);
+	background-color: var(--inline-code-background-color);
+	/* background-color: rgb(127 127 127 / 32%); */
+}
